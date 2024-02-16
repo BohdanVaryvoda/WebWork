@@ -1,0 +1,50 @@
+body {
+    text-decoration: none;
+}
+
+
+
+
+.main_menu {
+    background-color: blue;
+    display: block;
+    color: rgb(0, 0, 0);
+    position: sticky;
+    top: 0;
+    height: 200px;
+    width: 200 px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main_menu ul a {
+    font-size: 30px;
+    background-color: red;
+ margin-right: 20px;
+}
+
+#section1, #section2, #section3, #section4, #section5, #section6 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section2 {
+    background-color: aqua;
+
+}
+#section3 {
+    background-color: azure;
+}
+#section4 {
+    background-color: blueviolet;
+}
+#section5 {
+    background-color: antiquewhite;
+}
+#section6 {
+    background-color: brown;
+}
