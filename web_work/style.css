@@ -1,7 +1,9 @@
-
+body {
+    margin: 0;
+}
 .main_menu {
     margin: 0px;
-    background-color: blue;
+    background-color: #040425;
     display: block;
     color: rgb(0, 0, 0);
     position: sticky;
@@ -15,16 +17,26 @@
 
 .main_menu ul a {
     font-size: 30px;
-    background-color: red;
+    color: #c7e51a;
     margin-right: 20px;
     text-decoration: none;
 }
+.main_menu ul a:hover{
+    color: yellow;
+}
 
-#section1, #section2, #section3, #section4, #section5, #section6 {
+#section1 {
+    padding: 0px;
+    height: calc(100vh - 120px);
+    font-size: 37px ;
+}
+
+section {
     height: 100vh;
     padding-top: 120px;
     box-sizing: border-box;
 }
+
 
 #section2 {
     background-color: aqua;
