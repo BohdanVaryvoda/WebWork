@@ -12,6 +12,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 10;
     
 }
 
@@ -32,16 +33,41 @@ body {
 }
 
 section {
-    height: 100vh;
     padding-top: 120px;
-    box-sizing: border-box;
+    height: 100vh;
 }
 
 
 #section2 {
-    background-color: aqua;
-
+    position: relative;
+    background-image: url('https://github.com/BohdanVaryvoda/WebWork/blob/main/web_work/img/v1_39.png?raw=true');
+    background-size: cover;
+    background-attachment: fixed;
 }
+
+.section2_logo {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    width: 50px; 
+}
+
+.section2_title {
+    position: absolute;
+    top: 35%;
+    right: 11%;
+}
+
+.section2_title p {
+    color: #c9c909;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.section2_logo a img {
+    width: 110px;
+}
+
 #section3 {
     background-color: azure;
 }
@@ -49,6 +75,15 @@ section {
     background-color: blueviolet;
 }
 #section5 {
+    background-color: antiquewhite;
+}
+#section6 {
+    background-color: brown;
+}
+
+html {
+    scroll-behavior: smooth;
+}section5 {
     background-color: antiquewhite;
 }
 #section6 {
